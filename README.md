@@ -36,7 +36,7 @@
 * Setting up initial Day from template
   * <sub> *This script copies over the initial two match structures from the template worksheet into a new worksheet named; 'Day (Day number)'.* </sub>
   * <sub> *Why is this separated from the rest? Because the first match's structure can't be duplicated without causing the error which stems from vlookup.* </sub>
-<img width="809" alt="image" src="https://github.com/kayleecragg/kikibot/assets/70317319/47b0a6ea-369e-4ab1-b90b-c597e67a6c6e">
+<img width="808" alt="image" src="https://github.com/kayleecragg/kikibot/assets/70317319/4b0217f6-9c09-491f-ae73-e0e7e1cbb454">
 
 
 * Copying over from match template based on amount of matches
