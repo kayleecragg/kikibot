@@ -1,5 +1,5 @@
 # kikibot™
-## Documentation for [Shell bot](https://github.com/kayleecragg/kikibot?tab=readme-ov-file#shell-bot) and [Preimages bot](https://github.com/kayleecragg/kikibot/blob/main/README.md#preimages-bot). 
+## Documentation for [Shell bot](https://github.com/kayleecragg/kikibot?tab=readme-ov-file#shell-bot) ([click here](https://colab.research.google.com/drive/1aaMA24oRGTzopTKtB7gD3w8dCXhTn3VF#scrollTo=Hy3aPhbppsgn)) and [Preimages bot](https://github.com/kayleecragg/kikibot/blob/main/README.md#preimages-bot) ([click here](https://colab.research.google.com/drive/1M2tbZjuFYC1Hk58EXUIWqs9gCeemUnln#scrollTo=m-g0DkAkbQfy)). 
 
 ### [Shell bot:](https://colab.research.google.com/drive/1aaMA24oRGTzopTKtB7gD3w8dCXhTn3VF#scrollTo=Hy3aPhbppsgn)
 
