@@ -1,7 +1,7 @@
 # kikibot™
-## Documentation for [Shell bot](https://github.com/kayleecragg/kikibot?tab=readme-ov-file#shell-bot) ([click here](https://colab.research.google.com/drive/1aaMA24oRGTzopTKtB7gD3w8dCXhTn3VF#scrollTo=Hy3aPhbppsgn))
+## Documentation for [Shell bot](https://github.com/kayleecragg/kikibot?tab=readme-ov-file#shell-bot) ([click here](https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing))
 
-### [Shell bot:](https://colab.research.google.com/drive/1aaMA24oRGTzopTKtB7gD3w8dCXhTn3VF#scrollTo=Hy3aPhbppsgn)
+### [Shell bot:](https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing)
 
 #### First section: Downloading/installing necessary packages/libraries
 * Downloading JSON key from dropbox
