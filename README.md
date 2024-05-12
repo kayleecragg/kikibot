@@ -1,3 +1,5 @@
+<img src="Images/kikibot.png" width="1090" height="1081">
+
 # kikibot™
 ## Documentation for [Shell bot](https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing)
 
