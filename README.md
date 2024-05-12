@@ -13,8 +13,11 @@
 ## First Step: Data Entry
 
 1. Input the correct data into the sheet like so:
+![Data Entry](Images/dataentry.png)
    - Enter only the date and times for the first match on the court.
    - Input times for any matches labeled "not before xyz time" (e.g., "not before 7 pm") if that time is later than the default time.
+![Times](Images/times.png)
+
 
 ## Second Step: Click the Play Button
 
