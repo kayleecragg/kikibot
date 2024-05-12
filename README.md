@@ -1,48 +1,96 @@
-<img src="Images/kikibot.png" width="50%">
+<img src="Images/kikibot.png" width="30%">
 
-# kikibot™
-## Documentation for [Shell bot](https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing)
-
-# Kikibot Guide (Shells Automation Guide)
+# Kikibot™ guide (tile/shells automation guide)
 
 ## Links
 
 - [Kikibot 2.0 (Stan Link)](https://colab.research.google.com/drive/1Tk9nGVMjorHRL5TsOv_erFBpNOSrUpve?authuser=0#scrollTo=RAkRlbr57UXB)
 - [Kikibot 2.0 (Public Link)](https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing)
-- [Shells Checklist (Kris)](https://docs.google.com/spreadsheets/d/1TMpunmgfgJkY1SNFMF17w3t83N5Vc-0vvZLtECGfYxY/edit#gid=0)
 - [Tennis Shells](https://docs.google.com/spreadsheets/d/1st-aXLd3iuAegiXiGFRxeW2Oewbh7tp9GZl1fQCQIv8/edit#gid=1685617170)
+- [Shells Checklist (Kris)](https://docs.google.com/spreadsheets/d/1TMpunmgfgJkY1SNFMF17w3t83N5Vc-0vvZLtECGfYxY/edit#gid=0)
+
 
 ## First Step: Data Entry
 
-1. Input the correct data into the sheet like so:
+Open Tennis Shells sheet linked above and open the Data Template tab
+<br>
+Input the correct data into the sheet like so:
+<br>
+
 ![Data Entry](Images/dataentry.png)
-   - Enter only the date and times for the first match on the court.
-   - Input times for any matches labeled "not before xyz time" (e.g., "not before 7 pm") if that time is later than the default time.
+
+<b>List of Data Needed to be Added to the Sheet:</b>
+- Last Name of First and Second Player
+- Round
+- Start Time
+- Gender
+- Format
+- Court
+- Ranking (When Applicable)
+- If Commentary is Available or not (Usually on the first few courts only but will be confirmed by programming closer to the day)
+
+When inputting times, you only need to enter the date and times for the <b>first match</b> of the court (as Kikibot will autofill the rest later)
+  
 ![Times](Images/times.png)
 
+<b>Also</b>, input the times for any matches that have ‘not before xyz time', like 'not before 7pm' - if it is a later time than what it would have been.
 
-## Second Step: Click the Play Button
+<div style="display: flex; justify-content: space-between;">
+    <img src="Images/notbefore.png" width="48%">
+    <img src="Images/notbefore2.png" width="48%">
+</div>
 
-1. Click the play button under the "Setup" section.
-2. **Note**: If using a sheet other than "Tennis Shells," ensure it is properly set up.
+
+
+
+## Second Step: Open the Kikibot link and start the setup 🔑
+
+<b>Click the play :arrow_forward: button under the "Setup" section.</b><br>
+
+![play](Images/play.png)
+
+This will download all the necessary stuff for Kikibot to work and will take about a minute to run
+
+<b>If you are using a sheet other than ‘Tennis Shells’ then follow this as well:</b>
+
+<b>If</b> you are starting a new automation (tiles/shells) in a new Google Sheet, you need to add the tile-bot google account to the spreadsheet so that it can interact with the code.
+
+Just go to this icon in the top right corner:<br>
+<br>
+![add](Images/add.png)
+
+Here’s the google account:
+tile-bot@tile-bot-405312.iam.gserviceaccount.com
+
+Add it:<br>
+<br>
+![share](Images/share.png)
+
+
 
 ## Third Step: Open the Shells Section
+![shells](Images/shells.png)
 
-1. Open the "Shells" section by pressing the small arrow (indicated by a red circle).
+<b>Time to input some information so Kikibot can create the shells with the correct data</b><br>
+![variables](Images/variables.png)
 
-## Adding Tile-Bot Account
+1. <b>credentials_file:</b> 
 
-1. If starting a new automation in a new Google Sheet, add the tile-bot Google account to the spreadsheet so it can interact with the code:
-   - Google account: `tile-bot@tile-bot-405312.iam.gserviceaccount.com`
 
-2. To add the account, click the sharing icon in the top right corner and input this email address.
+2. <b>sheet_id:</b> URL of the sheet you are working with (If using ‘Tennis Shells’ this will be already filled out correctly) - Example of the section of the URL needed
 
-## Notes
+  ![link](Images/link.png)
 
-- **Data Template:** This is the worksheet where data should be entered.
-- **Day Sheet:** This is where the shells will be generated.
-  - Normally, no need to rename the Data Template.
-  - Rename the "Day" sheet as desired, but ensure no existing sheet already uses that name.
-  - If necessary, change the sheet name in Google Sheets or rename the Day sheet.
+3. <b>template_worksheet_name:</b> use dropdown to pick the competition
+4. <b>source_worksheet_name:</b> name of the tab where you put the Data (Usually leave as ‘Data Template’)
+5. <b>dest_worksheet_name:</b> input something like ‘Day 1’, this will be the name of the sheet where the shells are created
+
+<i>For clarity ‘Data Template is the worksheet where you would enter data, ‘Day' is the worksheet where the shells will be generated. You normally would not need to rename Data Template. Rename ‘Day’ as you wish.</i>
+
+<i>NOTE: if there is an already existing sheet with the name that you inputted for the Day sheet, the name will need to be changed in Google Sheets first or you would have to change the Day sheet to be named something else</i>
+
+Once these fields are filled out correctly, Click on the Play Button :arrow_forward: which will confirm the information
+
+
 
 
