@@ -2,6 +2,10 @@
 
 # Kikibot™ guide (tile/shells automation guide)
 
+<img src="Images/kiki.gif" width="80%">
+<img src="Images/kikibot.gif" width="80%">
+
+
 ## Links
 
 - [Kikibot 2.0 (Stan Link)](https://colab.research.google.com/drive/1Tk9nGVMjorHRL5TsOv_erFBpNOSrUpve?authuser=0#scrollTo=RAkRlbr57UXB)
