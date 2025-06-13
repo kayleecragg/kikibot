@@ -2,9 +2,6 @@
 
 # Kikibot™ guide (tile/shells automation guide)
 
-
-## I added the wrong link in my resume for riot games, **ASCENSION game** is located [**here**](https://github.com/kayleecragg/ascension/)
-
 <img src="Images/kiki.gif" width="80%">
 <img src="Images/kikibot.gif" width="80%">
 
